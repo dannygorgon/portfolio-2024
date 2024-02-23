@@ -1,6 +1,7 @@
 import Hero from "./hero/page";
 import Layout from "./layout/Layout";
 import Projects from "./projects/page";
+import TechStack from "./techstack/page";
 
 export default function Home() {
   const projectsArr = [
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <Layout>
       <Hero />
+      <TechStack />
       <Projects projects={projectsArr} />
       
     </Layout>
