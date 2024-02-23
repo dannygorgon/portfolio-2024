@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const TechStack = () => {
   return (
-    <div className="mt-8 ">
-    <div className="flex flex-wrap justify-center space-x-4 mx-a" >
+    <div className="mt-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
     <img className="m-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width={64} />
         <img className="m-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express.js" width={64} />
         <img className="m-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width={64} />
