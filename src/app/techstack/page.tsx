@@ -3,7 +3,7 @@ import React from "react";
 const TechStack = () => {
   return (
     <div className="mt-8">
-      <p className="text-xl xs:text-2xl font-bold text-balance text-center">
+      <p className="text-xl xs font-semibold:text-2xl font-bold text-balance text-center">
         Here are some of the <span className="text-blue-500">tools I use!</span>
       </p>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
@@ -14,7 +14,7 @@ const TechStack = () => {
             alt="PostgreSQL"
             width={64}
           />
-          <p className="mt-2 text-xs">PostgreSQL</p>
+          <p className="mt-2 text-xs font-semibold">PostgreSQL</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -23,7 +23,7 @@ const TechStack = () => {
             alt="Express.js"
             width={64}
           />
-                    <p className="mt-2 text-xs">ExpressJS</p>
+                    <p className="mt-2 text-xs font-semibold">ExpressJS</p>
 
         </div>
         <div className="flex flex-col items-center">
@@ -33,7 +33,7 @@ const TechStack = () => {
             alt="MongoDB"
             width={64}
           />
-                    <p className="mt-2 text-xs">MongoDB</p>
+                    <p className="mt-2 text-xs font-semibold">MongoDB</p>
 
         </div>
         <div className="flex flex-col items-center">
@@ -43,7 +43,7 @@ const TechStack = () => {
             alt="React"
             width={64}
           />
-                    <p className="mt-2 text-xs">React</p>
+                    <p className="mt-2 text-xs font-semibold">React</p>
 
         </div>
         <div className="flex flex-col items-center">
@@ -53,7 +53,7 @@ const TechStack = () => {
             alt="Node.js"
             width={64}
           />
-                    <p className="mt-2 text-xs">NodeJS</p>
+                    <p className="mt-2 text-xs font-semibold">NodeJS</p>
 
         </div>
         <div className="flex flex-col items-center">
@@ -63,7 +63,7 @@ const TechStack = () => {
             alt="JavaScript"
             width={64}
           />
-                    <p className="mt-2 text-xs">JavaScript</p>
+                    <p className="mt-2 text-xs font-semibold">JavaScript</p>
 
         </div>
         <div className="flex flex-col items-center">
@@ -73,7 +73,7 @@ const TechStack = () => {
             alt="TypeScript"
             width={64}
           />
-                    <p className="mt-2 text-xs">TypeScript</p>
+                    <p className="mt-2 text-xs font-semibold">TypeScript</p>
 
         </div>
         <div className="flex flex-col items-center">
@@ -83,7 +83,7 @@ const TechStack = () => {
             alt="HTML5"
             width={64}
           />
-                    <p className="mt-2 text-xs">HTML 5</p>
+                    <p className="mt-2 text-xs font-semibold">HTML 5</p>
 
         </div>
         <div className="flex flex-col items-center">
@@ -93,7 +93,7 @@ const TechStack = () => {
             alt="CSS3"
             width={64}
           />
-                    <p className="mt-2 text-xs">CSS 3</p>
+                    <p className="mt-2 text-xs font-semibold">CSS 3</p>
 
         </div>
         <div className="flex flex-col items-center">
@@ -103,7 +103,7 @@ const TechStack = () => {
             alt="Tailwind CSS"
             width={64}
           />
-                    <p className="mt-2 text-xs">Tailwind CSS</p>
+                    <p className="mt-2 text-xs font-semibold">Tailwind CSS</p>
 
         </div>
         <div className="flex flex-col items-center">
@@ -113,7 +113,7 @@ const TechStack = () => {
             alt="Jest"
             width={64}
           />
-                    <p className="mt-2 text-xs">Jest</p>
+                    <p className="mt-2 text-xs font-semibold">Jest</p>
 
         </div>
         <div className="flex flex-col items-center">
@@ -123,7 +123,7 @@ const TechStack = () => {
             alt="Insomnia"
             width={64}
           />
-                    <p className="mt-2 text-xs">Insomnia</p>
+                    <p className="mt-2 text-xs font-semibold">Insomnia</p>
 
         </div>
       </div>
