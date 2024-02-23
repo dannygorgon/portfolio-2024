@@ -12,8 +12,8 @@ const Hero = () => {
         <p className="text-xl xs:text-lg font-bold text-balance">Ipsum lorem dolem dolor la bloodclaat raasclaat  <span className="text-blue-500">move from round yah</span></p>
 
       </div>
-      <div>
-        <Image src="/me.png" alt="Hero" width={170} height={177}  />
+      <div className="flex items-center mx-auto">
+        <Image  src="/me.png" alt="Hero" width={270} height={277}  />
       </div>
     </section>
   );

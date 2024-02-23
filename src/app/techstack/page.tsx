@@ -23,8 +23,7 @@ const TechStack = () => {
             alt="Express.js"
             width={64}
           />
-                    <p className="mt-2 text-xs font-semibold">ExpressJS</p>
-
+          <p className="mt-2 text-xs font-semibold">ExpressJS</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -33,8 +32,7 @@ const TechStack = () => {
             alt="MongoDB"
             width={64}
           />
-                    <p className="mt-2 text-xs font-semibold">MongoDB</p>
-
+          <p className="mt-2 text-xs font-semibold">MongoDB</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -43,8 +41,7 @@ const TechStack = () => {
             alt="React"
             width={64}
           />
-                    <p className="mt-2 text-xs font-semibold">React</p>
-
+          <p className="mt-2 text-xs font-semibold">React</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -53,8 +50,7 @@ const TechStack = () => {
             alt="Node.js"
             width={64}
           />
-                    <p className="mt-2 text-xs font-semibold">NodeJS</p>
-
+          <p className="mt-2 text-xs font-semibold">NodeJS</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -63,8 +59,7 @@ const TechStack = () => {
             alt="JavaScript"
             width={64}
           />
-                    <p className="mt-2 text-xs font-semibold">JavaScript</p>
-
+          <p className="mt-2 text-xs font-semibold">JavaScript</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -73,8 +68,7 @@ const TechStack = () => {
             alt="TypeScript"
             width={64}
           />
-                    <p className="mt-2 text-xs font-semibold">TypeScript</p>
-
+          <p className="mt-2 text-xs font-semibold">TypeScript</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -83,8 +77,7 @@ const TechStack = () => {
             alt="HTML5"
             width={64}
           />
-                    <p className="mt-2 text-xs font-semibold">HTML 5</p>
-
+          <p className="mt-2 text-xs font-semibold">HTML 5</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -93,8 +86,7 @@ const TechStack = () => {
             alt="CSS3"
             width={64}
           />
-                    <p className="mt-2 text-xs font-semibold">CSS 3</p>
-
+          <p className="mt-2 text-xs font-semibold">CSS 3</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -103,8 +95,7 @@ const TechStack = () => {
             alt="Tailwind CSS"
             width={64}
           />
-                    <p className="mt-2 text-xs font-semibold">Tailwind CSS</p>
-
+          <p className="mt-2 text-xs font-semibold">Tailwind CSS</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -113,8 +104,7 @@ const TechStack = () => {
             alt="Jest"
             width={64}
           />
-                    <p className="mt-2 text-xs font-semibold">Jest</p>
-
+          <p className="mt-2 text-xs font-semibold">Jest</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -123,8 +113,7 @@ const TechStack = () => {
             alt="Insomnia"
             width={64}
           />
-                    <p className="mt-2 text-xs font-semibold">Insomnia</p>
-
+          <p className="mt-2 text-xs font-semibold">Insomnia</p>
         </div>
       </div>
     </div>

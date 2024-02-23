@@ -7,8 +7,8 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between p-8">
-      <Link href="/"><span className="mx-2">Logo</span></Link>
+    <nav className="flex items-center justify-between pt-8 pb-8">
+      <Link href="/"><span className="mx-2"></span></Link>
       <div className="sm:hidden">
         <button onClick={() => setIsOpen(!isOpen)} className="outline-none">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
