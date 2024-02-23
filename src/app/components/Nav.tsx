@@ -17,9 +17,9 @@ const Nav = () => {
         </button>
       </div>
       <div className={`${isOpen ? 'block' : 'hidden'} sm:flex`}>
-        <Link href="/about"><span className="mx-2">About</span></Link>
-        <Link href="/projects"><span className="mx-2">Projects</span></Link>
-        <Link href="/contact"><span className="mx-2">Contact</span></Link>
+        <Link href="/about"><span className="mx-2 hover:text-blue-500 text-xl" >About</span></Link>
+        <Link href="/projects"><span className="mx-2 hover:text-blue-500  text-xl">Projects</span></Link>
+        <Link href="/contact"><span className="mx-2 hover:text-blue-500 text-xl">Contact</span></Link>
       </div>
     </nav>
   );

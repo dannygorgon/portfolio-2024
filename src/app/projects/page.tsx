@@ -13,7 +13,7 @@ type ProjectsProps = {
 
 const Projects: React.FC<ProjectsProps> = ({ projects = [] }) => {
   return (
-    <section>
+    <section className='mt-12'>
       <h2>My Projects</h2>
       {projects.map((project, index) => (
         <div key={index}>
