@@ -9,6 +9,7 @@ const Hero = () => {
         
         <p className="text-xl xs:text-2xl font-bold text-balance">I&apos;m a <span className="text-blue-500">full-stack developer</span></p>
         <p className="text-xl xs:text-lg font-bold text-balance">Ipsum lorem dolem dolor la bloodclaat raasclaat  <span className="text-blue-500">bumboclaat</span></p>
+        <p className="text-xl xs:text-lg font-bold text-balance">Ipsum lorem dolem dolor la bloodclaat raasclaat  <span className="text-blue-500">move from round yah</span></p>
 
       </div>
       <div>

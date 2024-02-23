@@ -14,12 +14,13 @@ type ProjectsProps = {
 const Projects: React.FC<ProjectsProps> = ({ projects = [] }) => {
   return (
     <section className='mt-12'>
-      <h2>My Projects</h2>
-      {projects.map((project, index) => (
+<p className="text-xl xs:text-2xl font-bold text-balance text-center">
+        Below are some <span className="text-blue-500">apps I built!</span>
+      </p>      {projects.map((project, index) => (
         <div key={index}>
-          <h3>{project.title}</h3>
+          <h3 className='text-center'>{project.title}</h3>
           <Image src={project.image} alt={project.title} width={500} height={300} />
-          <p>{project.description}</p>
+          <p className='text-center'>{project.description}</p>
         </div>
       ))}
     </section>
