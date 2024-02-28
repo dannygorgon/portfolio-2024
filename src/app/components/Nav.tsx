@@ -7,7 +7,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex items-start justify-between pt-8 pb-8 lg:pt-16 lg:pb-16 xl:pt-24 xl:pb-24 2xl:pt-32 2xl:pb-32">
+    <nav className="flex items-start justify-between pt-8 pb-8 lg:pt-8 lg:pb-12 xl:pt-16 ">
       <Link href="/"><span className="mx-2"></span></Link>
       <div className="sm:hidden">
         <button onClick={() => setIsOpen(!isOpen)} className="outline-none">

@@ -2,6 +2,7 @@ import Hero from "./hero/page";
 import Layout from "./layout/Layout";
 import Projects from "./projects/page";
 import TechStack from "./techstack/page";
+import ContactForm from "./components/ContactForm";
 
 export default function Home() {
   const projectsArr = [
@@ -14,7 +15,7 @@ export default function Home() {
       <Hero />
       <TechStack />
       <Projects projects={projectsArr} />
-      
+      <ContactForm />
     </Layout>
   );
 }
