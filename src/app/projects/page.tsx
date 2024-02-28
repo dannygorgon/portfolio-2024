@@ -13,16 +13,19 @@ type ProjectsProps = {
 
 const Projects: React.FC<ProjectsProps> = ({ projects = [] }) => {
   return (
-    <section className='mt-12'>
-<p className="text-xl xs:text-2xl font-bold text-balance text-center">
+    <section className='mt-8'>
+      <p className="text-xl xs:text-2xl font-bold text-balance text-center">
         Below are some <span className="text-blue-500">apps I built!</span>
-      </p>      {projects.map((project, index) => (
-        <div key={index}>
-          <h3 className='text-center'>{project.title}</h3>
-          <Image src={project.image} alt={project.title} width={500} height={300} />
-          <p className='text-center'>{project.description}</p>
-        </div>
-      ))}
+      </p> 
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+        {projects.map((project, index) => (
+          <div key={index}>
+            <h3 className='text-center'>{project.title}</h3>
+            <Image src={project.image} alt={project.title} width={500} height={300} />
+            <p className='text-center'>{project.description}</p>
+          </div>
+        ))}
+      </div>
     </section>
   );
 };
