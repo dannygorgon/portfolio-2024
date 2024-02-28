@@ -17,15 +17,17 @@ const Projects: React.FC<ProjectsProps> = ({ projects = [] }) => {
       <p className="text-xl xs:text-2xl font-bold text-balance text-center">
         Below are some <span className="text-blue-500">apps I built!</span>
       </p> 
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-        {projects.map((project, index) => (
-          <div key={index}>
-            <h3 className='text-center'>{project.title}</h3>
-            <Image src={project.image} alt={project.title} width={500} height={300} />
-            <p className='text-center'>{project.description}</p>
+      {projects.map((project, index) => (
+        <div key={index} className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+          <div className="order-2 lg:order-1">
+            <h3 className='text-center lg:text-left'>{project.title}</h3>
+            <p className='text-center lg:text-left'>{project.description}</p>
           </div>
-        ))}
-      </div>
+          <div className="order-1 lg:order-2 flex justify-center">
+            <Image src={project.image} alt={project.title} width={500} height={300} />
+          </div>
+        </div>
+      ))}
     </section>
   );
 };

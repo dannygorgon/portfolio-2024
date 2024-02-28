@@ -6,9 +6,9 @@ import ContactForm from "./components/ContactForm";
 
 export default function Home() {
   const projectsArr = [
-    { title: 'Project 1', description: 'This is project 1', image: '/placeholder.jpg'},
-    { title: 'Project 2', description: 'This is project 2', image: '/placeholder.jpg'},
-    { title: 'Project 3', description: 'This is project 3', image: '/placeholder.jpg'},];
+    { title: 'Perkify', description: 'Perkify is a paperless, digital loyalty app aimed at incentivising repeat custom at small local businesses. B', image: '/placeholder.jpg'},
+    { title: 'NC News Frontend', description: 'This is project 2', image: '/placeholder.jpg'},
+    { title: 'NC New API', description: 'This is project 3', image: '/placeholder.jpg'},];
 
   return (
     <Layout>
