@@ -6,7 +6,7 @@ import ContactForm from "./components/ContactForm";
 
 export default function Home() {
   const projectsArr = [
-    { title: 'Perkify', description: 'Perkify is a paperless, digital loyalty app aimed at incentivising repeat custom at small local businesses. B', image: '/placeholder.jpg'},
+    { title: 'Perkify', description: 'Perkify is a paperless digital loyalty app designed to connect shoppers with local retailers. Built in React Native, TypeScript. ', image: '/placeholder.jpg'},
     { title: 'NC News Frontend', description: 'This is project 2', image: '/placeholder.jpg'},
     { title: 'NC New API', description: 'This is project 3', image: '/placeholder.jpg'},];
 
