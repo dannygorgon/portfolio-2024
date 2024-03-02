@@ -18,7 +18,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects = [] }) => {
       </p> 
       {projects.map((project, index) => (
         <div key={index} className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 shadow-xl shadow-slate-400-40 p-4 rounded-lg">
-          <div className="order-2 lg:order-1 mt-4">
+          <div className="order-2 lg:order-1">
             <h3 className='text-center lg:text-left'>{project.title}</h3>
             <p className='text-center mt-2 text-xs lg:text-base font-semibold lg:text-left break-words'>{project.description}</p>
           </div>
