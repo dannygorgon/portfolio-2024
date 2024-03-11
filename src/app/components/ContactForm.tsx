@@ -57,12 +57,18 @@ const ContactForm = () => {
   }
 
   return (
+    <>  
+          <p className="text-xl xs font-semibold:text-2xl font-bold text-balance text-center">
+        Feel free to <span className="text-blue-500">get in touch!</span>
+      </p> 
     <form
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
+      className=" w-full sm:w-64 lg:w-1/2"
     >
-      <div className="pt-0 mb-3">
+      <div className="pt-4 mb-3">
+
         <input
           type="text"
           placeholder="Your name"
@@ -90,13 +96,14 @@ const ContactForm = () => {
       </div>
       <div className="pt-0 mb-3">
         <button
-          className="active:bg-blue-600 hover:shadow-lg focus:outline-none px-6 py-3 mb-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 rounded shadow outline-none"
+          className="active:bg-blue-600 hover:shadow-lg focus:outline-none px-6 py-3 mb-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 rounded shadow outline-none  w-full "
           type="submit"
         >
           Send a message
         </button>
       </div>
     </form>
+    </>
   );
 };
 
