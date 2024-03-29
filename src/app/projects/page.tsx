@@ -21,9 +21,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects = [] }) => {
 
   return (
     <section className='mt-8 mx-auto max-w-screen-xl'>
-      <p className="text-xl xs font-semibold:text-2xl font-bold text-balance text-center">
-        Below are some <span className="text-blue-500">apps I built!</span>
-      </p> 
+
       {projects.map((project, index) => (
   <div key={index} className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 shadow-xl shadow-slate-400-40 p-4 rounded-lg">
     <div className="order-2 lg:order-1 flex flex-col justify-between">
